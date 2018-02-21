@@ -1,0 +1,39 @@
+// dot 2.38.0 on Linux 4.13.0-32-generic
+// SchemaSpy rev 590
+digraph "votes" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "votes" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">votes</TD></TR>
+      <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
+      <TR><TD PORT="votable_type" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">votable_type</TD></TR>
+      <TR><TD PORT="votable_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">votable_id</TD></TR>
+      <TR><TD PORT="voter_type" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">voter_type</TD></TR>
+      <TR><TD PORT="voter_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">voter_id</TD></TR>
+      <TR><TD PORT="vote_flag" COLSPAN="3" ALIGN="LEFT">vote_flag</TD></TR>
+      <TR><TD PORT="vote_scope" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">vote_scope</TD></TR>
+      <TR><TD PORT="vote_weight" COLSPAN="3" ALIGN="LEFT">vote_weight</TD></TR>
+      <TR><TD PORT="created_at" COLSPAN="3" ALIGN="LEFT">created_at</TD></TR>
+      <TR><TD PORT="updated_at" COLSPAN="3" ALIGN="LEFT">updated_at</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/votes.html"
+    tooltip="votes"
+  ];
+}
